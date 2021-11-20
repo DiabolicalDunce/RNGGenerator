@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		F04D4D7B2746C6AA00E3AEE3 /* RNGGeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D4D7A2746C6AA00E3AEE3 /* RNGGeneratorApp.swift */; };
-		F04D4D7D2746C6AA00E3AEE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D4D7C2746C6AA00E3AEE3 /* ContentView.swift */; };
+		F04D4D7D2746C6AA00E3AEE3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D4D7C2746C6AA00E3AEE3 /* HomeView.swift */; };
 		F04D4D7F2746C6AC00E3AEE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F04D4D7E2746C6AC00E3AEE3 /* Assets.xcassets */; };
 		F04D4D822746C6AC00E3AEE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F04D4D812746C6AC00E3AEE3 /* Preview Assets.xcassets */; };
+		F04D4D922746CB2E00E3AEE3 /* CoinFlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D4D912746CB2E00E3AEE3 /* CoinFlipView.swift */; };
+		F04D4D942746CB4000E3AEE3 /* DieRollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D4D932746CB4000E3AEE3 /* DieRollerView.swift */; };
+		F04D4D962746CB4B00E3AEE3 /* NumberGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D4D952746CB4B00E3AEE3 /* NumberGeneratorView.swift */; };
+		F04D4D9A2747270E00E3AEE3 /* RNG.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D4D992747270E00E3AEE3 /* RNG.swift */; };
+		F04D4D9C2747281D00E3AEE3 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D4D9B2747281D00E3AEE3 /* ContentModel.swift */; };
+		F04D4D9E2748B81A00E3AEE3 /* DieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D4D9D2748B81A00E3AEE3 /* DieView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F04D4D772746C6AA00E3AEE3 /* RNGGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNGGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04D4D7A2746C6AA00E3AEE3 /* RNGGeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNGGeneratorApp.swift; sourceTree = "<group>"; };
-		F04D4D7C2746C6AA00E3AEE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F04D4D7C2746C6AA00E3AEE3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F04D4D7E2746C6AC00E3AEE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F04D4D812746C6AC00E3AEE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F04D4D912746CB2E00E3AEE3 /* CoinFlipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlipView.swift; sourceTree = "<group>"; };
+		F04D4D932746CB4000E3AEE3 /* DieRollerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DieRollerView.swift; sourceTree = "<group>"; };
+		F04D4D952746CB4B00E3AEE3 /* NumberGeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGeneratorView.swift; sourceTree = "<group>"; };
+		F04D4D992747270E00E3AEE3 /* RNG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNG.swift; sourceTree = "<group>"; };
+		F04D4D9B2747281D00E3AEE3 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		F04D4D9D2748B81A00E3AEE3 /* DieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DieView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +47,7 @@
 		F04D4D6E2746C6AA00E3AEE3 = {
 			isa = PBXGroup;
 			children = (
+				F04D4D7A2746C6AA00E3AEE3 /* RNGGeneratorApp.swift */,
 				F04D4D792746C6AA00E3AEE3 /* RNGGenerator */,
 				F04D4D782746C6AA00E3AEE3 /* Products */,
 			);
@@ -51,8 +64,9 @@
 		F04D4D792746C6AA00E3AEE3 /* RNGGenerator */ = {
 			isa = PBXGroup;
 			children = (
-				F04D4D7A2746C6AA00E3AEE3 /* RNGGeneratorApp.swift */,
-				F04D4D7C2746C6AA00E3AEE3 /* ContentView.swift */,
+				F04D4D8A2746C70E00E3AEE3 /* Views */,
+				F04D4D892746C70800E3AEE3 /* ViewModels */,
+				F04D4D882746C70100E3AEE3 /* Models */,
 				F04D4D7E2746C6AC00E3AEE3 /* Assets.xcassets */,
 				F04D4D802746C6AC00E3AEE3 /* Preview Content */,
 			);
@@ -65,6 +79,34 @@
 				F04D4D812746C6AC00E3AEE3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F04D4D882746C70100E3AEE3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F04D4D992747270E00E3AEE3 /* RNG.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F04D4D892746C70800E3AEE3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F04D4D9B2747281D00E3AEE3 /* ContentModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F04D4D8A2746C70E00E3AEE3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F04D4D7C2746C6AA00E3AEE3 /* HomeView.swift */,
+				F04D4D912746CB2E00E3AEE3 /* CoinFlipView.swift */,
+				F04D4D932746CB4000E3AEE3 /* DieRollerView.swift */,
+				F04D4D952746CB4B00E3AEE3 /* NumberGeneratorView.swift */,
+				F04D4D9D2748B81A00E3AEE3 /* DieView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F04D4D7D2746C6AA00E3AEE3 /* ContentView.swift in Sources */,
+				F04D4D962746CB4B00E3AEE3 /* NumberGeneratorView.swift in Sources */,
+				F04D4D7D2746C6AA00E3AEE3 /* HomeView.swift in Sources */,
 				F04D4D7B2746C6AA00E3AEE3 /* RNGGeneratorApp.swift in Sources */,
+				F04D4D922746CB2E00E3AEE3 /* CoinFlipView.swift in Sources */,
+				F04D4D942746CB4000E3AEE3 /* DieRollerView.swift in Sources */,
+				F04D4D9E2748B81A00E3AEE3 /* DieView.swift in Sources */,
+				F04D4D9C2747281D00E3AEE3 /* ContentModel.swift in Sources */,
+				F04D4D9A2747270E00E3AEE3 /* RNG.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
